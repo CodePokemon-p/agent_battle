@@ -38,6 +38,10 @@ agent_battle/
 ├── requirements.txt
 └── README.md
 
+
+Watch the Chaos
+https://github.com/CodePokemon-p/agent_battle/blob/main/episode-1-stalemate.gif
+
 ## 🚀 How to Run
 
 ```bash
@@ -67,4 +71,6 @@ LangChain + OpenAI API (LLM decisions)
 
 Matplotlib (GIF generation)
 
-Watch the Chaos
+
+
+
