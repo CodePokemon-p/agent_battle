@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment variables (API keys)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Output files (we keep runs/, but ignore large files)
+runs/*/
+!runs/*/run_log.json
+!runs/*/race_replay.gif
+!runs/*/.gitkeep
+
+# Content recordings (too large for GitHub)
+content/raw/*.mp4
+content/raw/*.mov
+content/raw/*.avi
+content/clips/*.mp4
+content/raw/*.mkv
+content/raw/*.webm
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Python package files
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Streamlit
+.streamlit/
+
+# Matplotlib cache
+.matplotlib/
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
+
+# Backup files
+*.bak
+*.tmp
